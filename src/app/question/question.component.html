@@ -1,0 +1,48 @@
+<!--mat-card serves as a single-object container for text, photos, and actions.-->
+<mat-card >
+        <!-- For content of the card -->
+        <mat-card-content>
+            <form  class="question-form">
+                <div class="question-container">
+                    <!-- Wrap several component for common styling-->
+                    <mat-form-field>
+                        <!-- Label of select box-->
+                        <mat-label>Select university</mat-label>
+                            <!-- Creates a select box-->
+                            <mat-select>
+                              <!-- Creates options for select and loops throug array of objects-->
+                              <mat-option *ngFor="let u of uni" [value]="u.value">
+                                {{u.viewValue}}
+                              </mat-option>
+                        </mat-select>
+                    </mat-form-field>
+                    <mat-form-field>
+                        <mat-label>Select major</mat-label>
+                            <mat-select> 
+                                <mat-option *ngFor="let major of majors" [value]="major.value">
+                                    {{major.viewValue}}
+
+                                </mat-option>
+                            </mat-select>
+                    </mat-form-field>
+                            <mat-form-field>
+                            <mat-label>Are you willing to travel?</mat-label>
+                                <mat-select>
+                                    <mat-option value="1"> Yes </mat-option>
+                                    <mat-option value="0"> No </mat-option>
+                                </mat-select>
+                            </mat-form-field>
+                              
+                          
+
+                    
+                        <!-- Creates a select box-->
+                       
+        <!--Container for buttons and bottom of card-->
+        <mat-card-actions>
+            <button class="reg-btn" mat-raised-button (click)="questionSubmit()"  color="primary">Submit</button>
+        </mat-card-actions>
+                </div>
+            </form>
+        </mat-card-content>
+    </mat-card>

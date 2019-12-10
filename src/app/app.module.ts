@@ -7,8 +7,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MaterialModule} from './material/material.module';
 import { LoginComponent } from './login/login.component';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
-import { NavbarComponent } from './navbar/navbar.component';
 import { QuestionComponent } from './question/question.component';
+import { HeaderComponent } from './header/header.component';
 
 
 @NgModule({
@@ -17,8 +17,8 @@ import { QuestionComponent } from './question/question.component';
     RegisterComponent,
     LoginComponent,
     PagenotfoundComponent,
-    NavbarComponent,
-    QuestionComponent
+    QuestionComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,

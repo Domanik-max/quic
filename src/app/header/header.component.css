@@ -1,0 +1,17 @@
+.icon{
+    transform: scale(1.5);
+
+}
+
+mat-toolbar form input{
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+    border-radius: 25px;
+}
+
+input{
+    display: block;
+    float: right;
+}

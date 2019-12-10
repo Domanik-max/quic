@@ -1,0 +1,25 @@
+<!--mat-card serves as a single-object container for text, photos, and actions.-->
+<mat-card >
+        <!-- For content of the card -->
+        <mat-card-content>
+                <img src="../../assets/img/logo_transparent_background.png">           
+            <form  class="register-form">
+                <div class="example-container">
+                    <!-- Wrap several component for common styling-->
+                    <mat-form-field>
+                        <input matInput type="email" placeholder="Email" name="email">
+                    </mat-form-field>
+                    <mat-form-field>
+                        <input matInput  type="password" placeholder="Password" name="password">
+                    </mat-form-field>      
+        <!--Container for buttons and bottom of card-->
+        <mat-card-actions>
+            <button class="reg-btn" mat-raised-button (click)="login()"  color="primary">Login</button>
+        </mat-card-actions>
+                </div>
+            </form>
+        </mat-card-content>
+        <mat-card-footer>
+           <p class="footer-words">Don't have an account?<a routerLink="/register"> Register</a></p>
+        </mat-card-footer>
+    </mat-card>

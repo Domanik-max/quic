@@ -9,9 +9,6 @@ mat-toolbar form input{
     font-size: 17px;
     border: none;
     border-radius: 25px;
+    float: right
 }
 
-input{
-    display: block;
-    float: right;
-}

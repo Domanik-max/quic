@@ -9,6 +9,7 @@ import { LoginComponent } from './login/login.component';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 import { QuestionComponent } from './question/question.component';
 import { HeaderComponent } from './header/header.component';
+import { CardComponent } from './card/card.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { HeaderComponent } from './header/header.component';
     LoginComponent,
     PagenotfoundComponent,
     QuestionComponent,
-    HeaderComponent
+    HeaderComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,

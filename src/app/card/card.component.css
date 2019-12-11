@@ -1,0 +1,33 @@
+mat-card {
+    margin: 0 auto;
+    width: 19%;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, .4);
+    position: relative;
+    top: 50%;
+    transform: translateY(25%);
+    text-align: center;
+    overflow: hidden;
+  }
+
+ mat-icon .fa-facebook-f, mat-icon .fa-twitter{
+     margin-right: -1px;
+ }
+
+
+ mat-icon .fa-linkedin-in{
+    margin-left: -8px;
+}
+
+a{
+ cursor: pointer;
+ text-decoration: none;
+}
+
+a:hover{
+    color: #3f50b5;
+}
+
+mat-expansion-panel{
+    margin-top: 10px;
+}
+

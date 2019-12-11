@@ -45,7 +45,8 @@ const MaterialComponent = [
   MatToolbarModule,
   MatDividerModule,
   MatNativeDateModule,
-  MatIconModule
+  MatIconModule,
+  MatExpansionModule
 
 ];
 

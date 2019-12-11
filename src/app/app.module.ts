@@ -10,7 +10,9 @@ import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 import { QuestionComponent } from './question/question.component';
 import { HeaderComponent } from './header/header.component';
 import { CardComponent } from './card/card.component';
-
+import { HomeComponent } from './components/home/home.component';
+import {MessagesComponent} from './components/messages/messages.component';
+import {SettingsComponent} from './components/settings/settings.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,10 @@ import { CardComponent } from './card/card.component';
     PagenotfoundComponent,
     QuestionComponent,
     HeaderComponent,
-    CardComponent
+    CardComponent,
+    HomeComponent,
+    MessagesComponent,
+    SettingsComponent
   ],
   imports: [
     BrowserModule,

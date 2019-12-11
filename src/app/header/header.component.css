@@ -36,3 +36,7 @@ mat-toolbar form input{
       bottom: 0;
       text-decoration: none;
   }
+  .lastdivider{
+      position: relative;
+      top: 425px;
+  }

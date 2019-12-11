@@ -23,8 +23,16 @@ mat-toolbar form input{
       background-color: #3f50b5;
   }
 
+ mat-nav-list{
+    width: 170px;
+ }
 
   .example-container {
-    width: 400px;
-    height: 98%;
+    height: 100%;
+  }
+
+  .footer{
+      position: fixed;
+      bottom: 0;
+      text-decoration: none;
   }

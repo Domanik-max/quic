@@ -25,9 +25,21 @@
     <mat-sidenav mode="side" opened id="sidenav">
         <!-- Hold my navigation links-->
           <mat-nav-list>
+              <!-- Links for sidnav-->
+                <a mat-list-item routerLink='Card'> Home</a>
+                <!-- mat divider to make horizontal line-->
+                <mat-divider></mat-divider>
+                <a mat-list-item routerLink='Messages'>Card</a>
+                <mat-divider></mat-divider>
+                <a mat-list-item routerLink='Settings'>Messages</a>
+                <mat-divider></mat-divider>
+                <a mat-list-item routerLink='Messages'>Settings</a>
+                <mat-divider></mat-divider>
+
+                <mat-divider class="lastdivider"></mat-divider>
+
+                <a mat-list-item class="footer" routerLink='Logout'>Logout</a>
                 
-                <a mat-list-item routerLink='/first'>First Component</a>
-                <a mat-list-item routerLink='/second'>Second Component</a>
           </mat-nav-list>
     </mat-sidenav>
       <!-- Represents main content-->

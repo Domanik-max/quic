@@ -5,12 +5,19 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.css']
 })
+
+
 export class HeaderComponent implements OnInit {
 
   constructor() { }
 
   ngOnInit() {
+    
+    function toggle():void//Function toggle the sidenav bar
+    {
+         
+    }
   }
 
-  opened:boolean = true;
+
 }

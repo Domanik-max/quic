@@ -16,12 +16,11 @@ const routes: Routes = [
   {path: 'login',      component: LoginComponent},
   {path: 'question',   component: QuestionComponent},
   {path: 'header',     component:HeaderComponent},
-  {path: 'card',     component:CardComponent},
-  {path: '**', component: PagenotfoundComponent},
-  {path: 'home', component: HomeComponent},
-  {path: 'messages', component: MessagesComponent},
-  {path: 'settings' , component: SettingsComponent}
-
+  {path: 'header/card',     component:CardComponent},
+  {path: 'header/home', component: HomeComponent},
+  {path: 'header/messages', component: MessagesComponent},
+  {path: 'header/settings' , component: SettingsComponent},
+  {path: '**', component: PagenotfoundComponent}
 ];
 
 @NgModule({

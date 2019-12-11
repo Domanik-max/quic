@@ -9,44 +9,46 @@
 
 </mat-toolbar>
 -->
+<!-- to create navbar -->
 <mat-toolbar color="primary">
-    <mat-icon class="icon">reorder</mat-icon>
+    <!-- Use icon for -->
+    <mat-icon (click)="sidenav.toggle()"   class="icon" >reorder</mat-icon>
     <!-- This fills the remaining space of the current row -->
     <span class="example-fill-remaining-space"></span>
     <form>
         <input type="text" placeholder="Search..." id="searchbox">  
    </form>  
   </mat-toolbar>
-  
-
-  <!-- Structural container for side nav-->
-  <mat-sidenav-container class="example-container">
+  <!-- Structural container for side nav //[mode]="push" -->
+  <mat-sidenav-container class="example-container" >
       <!-- Represents added side content-->
-    <mat-sidenav mode="side" opened id="sidenav">
+    <mat-sidenav #sidenav [mode]="push" id="sidenav" opened >
+
         <!-- Hold my navigation links-->
           <mat-nav-list>
               <!-- Links for sidnav-->
                 <a mat-list-item routerLink='home'> Home</a>
                 <!-- mat divider to make horizontal line-->
                 <mat-divider></mat-divider>
-                <a mat-list-item routerLink='card'>Card</a>
+                <a mat-list-item routerLink="card">Card</a>
                 <mat-divider></mat-divider>
                 <a mat-list-item routerLink='messages'>Messages</a>
                 <mat-divider></mat-divider>
                 <a mat-list-item routerLink='settings'>Settings</a>
                 <mat-divider></mat-divider>
                 <mat-divider class="lastdivider"></mat-divider>
-                <a mat-list-item class="footer" routerLink='Logout'>Logout</a>
-                
+                <a mat-list-item class="footer" routerLink='Logout'>Logout</a>     
           </mat-nav-list>
     </mat-sidenav>
       <!-- Represents main content-->
       <mat-sidenav-content>
           <!--Main content for page goes here -->
           <p>this is main content</p>
+          <button mat-raised-button (click)="sidenav.toggle()">Toggle drawer</button>
           <input type="text">
       </mat-sidenav-content>
   </mat-sidenav-container>
+
   
 
   

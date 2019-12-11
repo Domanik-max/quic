@@ -5,10 +5,26 @@
 
 mat-toolbar form input{
     padding: 6px;
-    margin-top: 8px;
+    margin-top: 4px;
     font-size: 17px;
     border: none;
     border-radius: 25px;
-    float: right
+    flex: 1 1 auto;
+
 }
 
+.example-fill-remaining-space {
+    /* This fills the remaining space, by using flexbox. 
+       Every toolbar row uses a flexbox row layout. */
+    flex: 1 1 auto;
+  }
+
+  #sidenav{
+      background-color: #3f50b5;
+  }
+
+
+  .example-container {
+    width: 400px;
+    height: 98%;
+  }

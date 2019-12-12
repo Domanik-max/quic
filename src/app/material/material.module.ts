@@ -51,7 +51,8 @@ const MaterialComponent = [
   MatCheckboxModule,
   MatListModule,
   MatTreeModule,
-  MatMenuModule
+  MatMenuModule,
+  MatTabsModule
 
 ];
 

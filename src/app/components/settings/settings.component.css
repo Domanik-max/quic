@@ -1,0 +1,77 @@
+.icon{
+    transform: scale(1.5);
+    cursor: pointer;
+
+}
+
+mat-toolbar form input{
+    padding: 6px;
+    margin-top: 4px;
+    font-size: 17px;
+    border: none;
+    border-radius: 25px;
+    flex: 1 1 auto;
+
+}
+
+.example-fill-remaining-space {
+    /* This fills the remaining space, by using flexbox. 
+       Every toolbar row uses a flexbox row layout. */
+    flex: 1 1 auto;
+  }
+
+  #sidenav{
+      background-color: #3f50b5;
+  }
+
+ mat-nav-list{
+    width: 170px;
+ }
+
+  .example-container {
+    height: 100%;
+  }
+
+  .footer{
+      position: fixed;
+      bottom: 0;
+      text-decoration: none;
+  }
+  .lastdivider{
+      position: relative;
+      top: 425px;
+  }
+
+  button{
+      text-decoration: none;
+  }
+
+  mat-nav-list a{
+      color: white;
+  }
+
+  mat-expansion-panel{
+      background-color: #3f50b5;
+      text-decoration: none;
+      box-shadow: none;
+      color: white;
+      text-align: left;
+  }
+
+   button{
+      background-color: red;
+      width: 170px;
+  }
+
+  mat-drawer{
+    background-color: #3f50b5;
+    width: 170px;
+  }
+
+  .example-container {
+    height: 100%;
+  }
+
+  i{
+    letter-spacing: 3px;
+  }

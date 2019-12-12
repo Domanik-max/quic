@@ -18,7 +18,8 @@ const routes: Routes = [
   {path: 'card',     component:CardComponent},
   {path: 'home', component: HomeComponent},
   {path: 'messages', component: MessagesComponent},
-  {path: 'settings' , component: SettingsComponent},
+  {path: 'settings', component: SettingsComponent},
+
   {path: '**', component: PagenotfoundComponent}
 ];
 

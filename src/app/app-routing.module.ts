@@ -11,15 +11,14 @@ import {MessagesComponent} from './components/messages/messages.component';
 import {SettingsComponent} from './components/settings/settings.component';
 
 const routes: Routes = [
-  {path: '',           component: RegisterComponent},
+  {path: '', redirectTo: '/register', pathMatch: 'full'},
   {path: 'register',   component: RegisterComponent},
   {path: 'login',      component: LoginComponent},
   {path: 'question',   component: QuestionComponent},
-  {path: 'header',     component:HeaderComponent},
-  {path: 'header/card',     component:CardComponent},
-  {path: 'header/home', component: HomeComponent},
-  {path: 'header/messages', component: MessagesComponent},
-  {path: 'header/settings' , component: SettingsComponent},
+  {path: 'card',     component:CardComponent},
+  {path: 'home', component: HomeComponent},
+  {path: 'messages', component: MessagesComponent},
+  {path: 'settings' , component: SettingsComponent},
   {path: '**', component: PagenotfoundComponent}
 ];
 

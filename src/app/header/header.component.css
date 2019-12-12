@@ -1,5 +1,6 @@
 .icon{
     transform: scale(1.5);
+    cursor: pointer;
 
 }
 
@@ -43,4 +44,21 @@ mat-toolbar form input{
 
   button{
       text-decoration: none;
+  }
+
+  mat-nav-list a{
+      color: white;
+  }
+
+  mat-expansion-panel{
+      background-color: #3f50b5;
+      text-decoration: none;
+      box-shadow: none;
+      color: white;
+      text-align: left;
+  }
+
+   button{
+      background-color: red;
+      width: 170px;
   }
